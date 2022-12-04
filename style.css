@@ -38,8 +38,7 @@ input::placeholder {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-#login-box form > input,
-#login-box form > input::placeholder {
+#login-box form > input{
   text-align: center;
 }
 
