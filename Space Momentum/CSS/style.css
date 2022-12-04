@@ -27,13 +27,6 @@ input::placeholder {
   caret-color: white;
   color: white;
 }
-
-#todo-box {
-  position: absolute;
-  top: 5%;
-  right: 5%;
-  font-family: "Catamaran", sans-serif;
-}
 #today-box p,
 #login-box p {
   font-size: 2em;
@@ -62,6 +55,18 @@ input::placeholder {
   margin: 0px;
 }
 
+#weather {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#todo-box {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-family: "Catamaran", sans-serif;
+}
 #todo-list {
   list-style: none;
   padding: 0px;
